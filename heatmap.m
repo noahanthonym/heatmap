@@ -4,17 +4,6 @@ clear;
 close all
 clc %% clear command window
 
-%save_folder = uigetdir('' , 'Select folder to save data');
-%[import_file , import_path] = uigetfile('*.*' , 'Select file to import data');
-%cd(import_path) 
-%file_nm = inputdlg('Enter the file name you want to use for the data'); %% takes input of name for array and assigned it dlg_nm
-%file_nm = char(file_nm); %% turns dlg_nm into a text scalar
-%imported_data = uiimport(import_file); 
-%cd(save_folder)
-%save(file_nm, 'imported_data');
-%cd(import_path)
-
-%cd(save_folder)
 
 save_folder = uigetdir('' , 'Select folder to save data'); % Selects save folder
 cd(save_folder)
