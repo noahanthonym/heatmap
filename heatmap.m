@@ -1,4 +1,7 @@
-% heatmap you want to create.
+% Creates a heatmap from files you create in make_files.m
+% You should have atm 2 files, one .mat with your data and column names. 
+% Want to make this a loop in which you can create n amount of heatmaps instead of having to run it 
+% in single moments.
 
 clear;
 close all
