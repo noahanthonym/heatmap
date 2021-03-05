@@ -1,5 +1,5 @@
 % Creates a heatmap from files you create in make_files.m
-% You should have atm 2 files, one .mat with your data and column names. 
+% You should have 2 files, one .mat with your data and names. 
 % Want to make this a loop in which you can create n amount of heatmaps instead of having to run it 
 % in single moments.
 
