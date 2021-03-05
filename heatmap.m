@@ -1,5 +1,3 @@
-% When creating the .mat files
-% use a spreadsheet or a specific sheet of one with only your data for the
 % heatmap you want to create.
 
 clear;
@@ -40,8 +38,3 @@ map.Title = dlg_ans(1,1);
 map.XLabel = dlg_ans(2,1);
 map.YLabel = dlg_ans(3,1);
 map.Colormap = flag; % https://www.mathworks.com/help/matlab/ref/colormap.html
-
-
-
-
-
