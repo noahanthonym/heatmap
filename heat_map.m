@@ -16,7 +16,7 @@ file_nm = uigetfile();
 load(file_nm)
 table = struct2cell(imported_data);
 
-uiwait(msgbox('Select file with column names for heat map','modal')); %Selects column names
+uiwait(msgbox('Select file with data names for heat map','modal')); %Selects column names
 column_names = uigetfile();
 load(column_names)
 names = struct2cell(imported_data);
