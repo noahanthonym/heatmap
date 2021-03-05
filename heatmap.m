@@ -29,4 +29,4 @@ map = heatmap(xvalues, yvalues, table);
 map.Title = dlg_ans(1,1);
 map.XLabel = dlg_ans(2,1);
 map.YLabel = dlg_ans(3,1);
-map.Colormap = flag; % https://www.mathworks.com/help/matlab/ref/colormap.html
+map.Colormap = summer; % https://www.mathworks.com/help/matlab/ref/colormap.html
