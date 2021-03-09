@@ -7,7 +7,7 @@ clear;
 close all
 clc %% clear command window
 
-
+uiwait(msgbox('Select folder to save data'));
 save_folder = uigetdir('' , 'Select folder to save data'); % Selects save folder
 cd(save_folder)
 
@@ -16,12 +16,7 @@ file_nm = uigetfile();
 load(file_nm)
 table = struct2cell(imported_data);
 
-uiwait(msgbox('Select file with data names for heat map','modal')); %Selects column names
-column_names = uigetfile();
-load(column_names)
-names = struct2cell(imported_data);
-
-axis = names{1,1};
+axis = table{2,1};
 xvalues = axis(1,2:width(axis));
 yvalues = axis(2:height(axis),1);
 table = table{1,1};
